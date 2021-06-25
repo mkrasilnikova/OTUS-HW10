@@ -7,11 +7,7 @@ $SPARK_HOME/bin/spark-submit --class consumer.ConsumerStreaming  --packages org.
 
 Запуск батча
 
-$SPARK_HOME/bin/spark-submit --class consumer.ConsumerBatch   homework10-assembly-0.1.jar 2019-08-01
-
-Запуск consumer'а
-
-$KAFKA_HOME/bin/kafka-console-consumer.sh --topic prediction --bootstrap-server localhost:9092
+$SPARK_HOME/bin/spark-submit --class consumer.ConsumerBatch   homework10-assembly-0.1.jar 2021-06-24
 
 Запуск producer'а
 
